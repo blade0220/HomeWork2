@@ -50,7 +50,7 @@ public class Main {
 
         var hourWorking = 640.00;
         var employeesCompany = hourWorking / 8;
-        System.out.println("Всего работников в компании – " + employeesCompany + " человек");
+        System.out.println("Всего работников в компании – " + employeesCompany + " чел.");
         employeesCompany = employeesCompany + 94;
         var employeesHours = 640.00 / employeesCompany;
         System.out.println("Если в компании работает – " + employeesCompany + " человек, то всего " + employeesHours + " часов работы может быть поделено между сотрудниками.");
